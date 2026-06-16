@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jody Esguerra — Gospel Tracts</title>
+  <meta name="description" content="Free gospel tracts by Jody Esguerra — download and share." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #f7f6f2;
+      color: #1a1a18;
+      min-height: 100vh;
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      padding: 3rem 1rem 4rem;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      body { background: #1a1a18; color: #f0efe9; }
+    }
+
+    .page { width: 100%; max-width: 480px; }
+
+    .avatar {
+      width: 72px; height: 72px; border-radius: 50%;
+      background: #1D9E75;
+      display: flex; align-items: center; justify-content: center;
+      margin: 0 auto 1rem;
+    }
+    .avatar i { font-size: 30px; color: #fff; }
+
+    .name {
+      font-family: 'Playfair Display', serif;
+      font-size: 24px; font-weight: 700;
+      text-align: center;
+      margin-bottom: 0.35rem;
+    }
+
+    .tagline {
+      font-size: 14px;
+      color: #6b6b67;
+      text-align: center;
+      margin-bottom: 2.5rem;
+      line-height: 1.5;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      .tagline { color: #9e9e99; }
+    }
+
+    .section-label {
+      font-size: 11px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #aaa9a4;
+      margin-bottom: 0.75rem;
+      padding-left: 2px;
+    }
+
+    .card {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      padding: 0.75rem;
+      background: #ffffff;
+      border: 0.5px solid rgba(0,0,0,0.1);
+      border-radius: 14px;
+      text-decoration: none;
+      color: inherit;
+      margin-bottom: 0.75rem;
+      transition: border-color 0.15s, box-shadow 0.15s;
+    }
+
+    .card-cover {
+      width: 70px;
+      height: 100px;
+      border-radius: 8px;
+      flex-shrink: 0;
+      object-fit: cover;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    }
+
+    .card:hover { border-color: rgba(0,0,0,0.25); }
+    .card:focus-visible { outline: 3px solid #1D9E75; outline-offset: 2px; }
+
+    @media (prefers-color-scheme: dark) {
+      .card { background: #272723; border-color: rgba(255,255,255,0.08); }
+      .card:hover { border-color: rgba(255,255,255,0.2); }
+    }
+
+    .icon {
+      width: 44px; height: 44px; border-radius: 10px; flex-shrink: 0;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 20px;
+    }
+
+    .icon-green  { background: #E1F5EE; color: #0F6E56; }
+    .icon-coral  { background: #FAECE7; color: #993C1D; }
+    .icon-purple { background: #EEEDFE; color: #534AB7; }
+
+    @media (prefers-color-scheme: dark) {
+      .icon-green  { background: #085041; color: #5DCAA5; }
+      .icon-coral  { background: #4A1B0C; color: #F0997B; }
+      .icon-purple { background: #26215C; color: #AFA9EC; }
+    }
+
+    .card-text { 
+      flex: 1;
+      min-width: 0;
+    }
+
+    .card-title {
+      font-size: 15px; font-weight: 500;
+      color: inherit;
+      margin-bottom: 2px;
+      line-height: 1.3;
+    }
+
+    .card-sub {
+      font-size: 13px;
+      color: #6b6b67;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      .card-sub { color: #9e9e99; }
+    }
+
+    .dl-btn {
+      width: 36px; height: 36px; border-radius: 8px;
+      background: #f0efe9;
+      display: flex; align-items: center; justify-content: center;
+      color: #6b6b67;
+      flex-shrink: 0;
+      font-size: 16px;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      .dl-btn { background: #1a1a18; color: #9e9e99; }
+    }
+
+    footer {
+      text-align: center;
+      font-size: 12px;
+      color: #aaa9a4;
+      margin-top: 2.5rem;
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <div class="avatar" aria-hidden="true">
+      <svg width="60" height="60" viewBox="0 0 120 120" style="overflow:visible">
+        <path d="M 22 24 L 52 29 L 52 104 L 22 104 Z" style="fill:none;stroke:#1D9E75;stroke-width:0.8;opacity:0.15"/>
+        <path d="M 68 29 L 98 24 L 98 104 L 68 104 Z" style="fill:none;stroke:#1D9E75;stroke-width:0.8;opacity:0.15"/>
+        <path d="M 26 22 L 56 27 L 56 102 L 26 102 Z" style="fill:none;stroke:#1D9E75;stroke-width:1;opacity:0.3"/>
+        <path d="M 64 27 L 94 22 L 94 102 L 64 102 Z" style="fill:none;stroke:#1D9E75;stroke-width:1;opacity:0.3"/>
+        <path d="M 30 20 L 60 25 L 60 100 L 30 100 Z" style="fill:#2C2C2A;stroke:#1D9E75;stroke-width:1.5"/>
+        <path d="M 60 25 L 90 20 L 90 100 L 60 100 Z" style="fill:#F7F6F2;stroke:#1D9E75;stroke-width:1.5"/>
+        <line x1="60" y1="25" x2="60" y2="100" style="stroke:#1D9E75;stroke-width:1.5;opacity:0.4"/>
+      </svg>
+    </div>
+
+    <h1 class="name">Gospel Tracts</h1>
+    <p class="tagline">English Gospel Tracts - download and share freely.</p>
+
+    <p class="section-label">Gospel Tracts</p>
+
+    <a class="card" href="tracts/the-ultimate-comeback.pdf" download>
+      <img class="card-cover" src="covers/the-ultimate-comeback.jpg" alt="The Ultimate Comeback cover" />
+      <div class="card-text">
+        <p class="card-title">The Ultimate Comeback</p>
+        <p class="card-sub">Basketball · English</p>
+      </div>
+      <div class="dl-btn" aria-hidden="true"><i class="ti ti-download"></i></div>
+    </a>
+
+    <a class="card" href="tracts/lets-go-home.pdf" download>
+      <img class="card-cover" src="covers/lets-go-home.jpg" alt="Let's Go Home cover" />
+      <div class="card-text">
+        <p class="card-title">Let's Go Home</p>
+        <p class="card-sub">Homesickness · English</p>
+      </div>
+      <div class="dl-btn" aria-hidden="true"><i class="ti ti-download"></i></div>
+    </a>
+
+    <a class="card" href="tracts/life-series.pdf" download>
+      <img class="card-cover" src="covers/life-series.jpg" alt="The L.I.F.E. Series cover" />
+      <div class="card-text">
+        <p class="card-title">The L.I.F.E. Series</p>
+        <p class="card-sub">Young people · English</p>
+      </div>
+      <div class="dl-btn" aria-hidden="true"><i class="ti ti-download"></i></div>
+    </a>
+
+    <footer>Ballymena Baptist Filipino Ministry - Ballymena, Northern Ireland · jodyhannahesguerra@gmail.com</footer>
+  </main>
+</body>
+</html>
